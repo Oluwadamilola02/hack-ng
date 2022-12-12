@@ -1,0 +1,533 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.m-last.bot {
+  padding-bottom: 0rem;
+}
+
+.bots {
+  padding-top: 0.2rem;
+}
+
+/* .header {
+  position: relative;
+} */
+
+body {
+  font-family: "rubik", sans-serif;
+  color: #444;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.shadow {
+  margin: 5rem;
+  box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 20%);
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+
+  margin-top: 5rem;
+  transition: all 0.2s ease-in;
+  height: 6.5rem;
+}
+
+.mobile-menu {
+  transition: all 0.8s ease-in;
+  opacity: 0;
+}
+
+#hamburger-icon div {
+  width: 3.5rem;
+  height: 0.3rem;
+  background-color: black;
+  margin: 0.6rem 0;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 6px);
+  transform: rotate(-45deg) translate(-4px, 6px);
+  display: float;
+  float: right;
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-3px, -8px);
+  transform: rotate(45deg) translate(-3px, -8px);
+
+  display: float;
+  float: right;
+}
+
+.open .mobile-menu {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3.2rem;
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  /* transition: all 0.8s ease-in; */
+  padding-left: 3.4rem;
+  padding-right: 3.4rem;
+  /* padding-top: -2rem; */
+  /* padding-bottom: 3.8rem; */
+  margin-bottom: 11.6rem;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.lin-k {
+  list-style: none;
+}
+
+.swipe:link,
+.swipe:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+  transition: all 0.3s;
+}
+
+.swipe:hover,
+.swipe:active {
+  color: #6cbb23;
+  border-bottom: 1px solid #6cbb23;
+  padding-bottom: 1rem;
+}
+
+.hack-logo {
+  width: 100%;
+}
+
+.mobile-menu {
+  display: none;
+
+  /* height: calc(100vh - 50px); */
+  /* width: 50%; */
+}
+
+.mobile-menu li {
+  margin-bottom: 0.1rem;
+  transition: all 0.7s ease-in;
+}
+
+header nav {
+  opacity: 1;
+  transition: all 0.8s ease-in;
+}
+
+#hamburger-icon {
+  display: block;
+}
+
+.nav-pad {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 100rem;
+  margin: -5.6rem auto;
+  padding: 0 3.2rem;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 3.6rem 0;
+}
+
+.head {
+  font-size: 6rem;
+  font-family: "poppins", sans-serif;
+}
+
+.build {
+  font-weight: bold;
+  font-size: 6rem;
+  color: #383838;
+  padding-bottom: 0.8rem;
+}
+
+.th-e {
+  font-size: 6rem;
+  font-family: "poppins", sans-serif;
+}
+
+.icon-header {
+  width: 4.3rem;
+  height: 4.3rem;
+  color: #6cbb23;
+  font-weight: 500;
+}
+
+.fut {
+  font-size: 6rem;
+
+  font-weight: 500;
+  color: #6cbb23;
+}
+
+.but-1:link,
+.but-1:visited {
+  background-color: #6cbb23;
+  font-size: 1.8rem;
+  color: #fff;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-radius: 100px;
+  border: none;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.link-one {
+  padding-top: 2rem;
+}
+
+.but-1:hover,
+.but-1:active {
+  color: #6cbb23;
+  background-color: #fff;
+  border: 1px solid #6cbb23;
+}
+
+.one-buttom {
+  padding-bottom: 1.8rem;
+}
+
+.container-3 {
+  padding-top: 9.6rem;
+  position: relative;
+}
+
+.first-second {
+  background-image: url(img/pexels-andrew-neel-3178786.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.first-one {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
+}
+
+.first-two {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
+  padding-bottom: 5.2rem;
+  position: absolute;
+  left: 450px;
+  max-width: fit-content;
+}
+
+.widt-h {
+  max-width: fit-content;
+
+  position: absolute;
+  bottom: 55px;
+  left: 713px;
+}
+
+.container-4 {
+  padding: 9.6rem;
+  padding-bottom: 10.2rem;
+}
+
+.space-one {
+  padding-bottom: 3.8rem;
+}
+
+.grid-5 {
+  column-gap: 20rem;
+}
+
+.text-5-one {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: #383838;
+  padding-bottom: 4rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.6rem;
+}
+
+.change-col {
+  color: #6cbb23;
+}
+
+.head-4 {
+  font-size: 3.6rem;
+  font-family: "poppins", sans-serif;
+}
+
+.head-5 {
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #333;
+  padding-left: 1rem;
+}
+
+.app {
+  background-image: url(img/other.jpg);
+  background-size: cover;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 1.2rem;
+  max-width: 150rem; */
+}
+
+.flex-3-col {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* width: 120rem; */
+}
+
+.flex-23-col {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2rem; */
+  /* width: 120rem; */
+}
+
+.about-1 {
+  height: 48rem;
+  padding: 2.4rem;
+  width: 35rem;
+  background-color: #fff;
+}
+
+.laptop:hover {
+  background-color: #6cbb23;
+  color: #fff;
+}
+
+.icon-5 {
+  padding-bottom: 2.6rem;
+}
+
+.laptop {
+  width: 9.6rem;
+  height: 4.8rem;
+  color: #6cbb23;
+  padding: 4.8rem;
+  background-color: #e0efd0d0;
+  width: 20.6rem;
+  height: 9.6rem;
+
+  /* margin: 3.6rem; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 1.2rem; */
+  justify-content: center;
+  transition: all 0.5s;
+  align-items: center;
+}
+
+.text-inner {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.2rem;
+  /* margin: 3.6rem; */
+  letter-spacing: 0.01rem;
+  max-width: 90%;
+  padding-bottom: 2.6rem;
+}
+
+.text-in {
+  font-size: 1.4rem;
+  color: #383838;
+  /* margin: 3.6rem; */
+  line-height: 1.8rem;
+  padding-bottom: 9.8rem;
+  width: 90%;
+  padding-bottom: 2.6rem;
+}
+
+.second-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-one {
+  text-align: right;
+}
+
+.container-8 {
+  padding-top: 10.9rem;
+  padding-bottom: 15rem;
+  padding-left: 13.6rem;
+  padding-right: 12.6rem;
+}
+
+.pop-1 {
+  color: #6cbb23;
+  font-size: 5.8rem;
+  font-family: "poppins", sans-serif;
+  padding-bottom: 1.8rem;
+}
+
+.pop {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+  padding-bottom: 3rem;
+}
+
+.text-second-one {
+  padding-right: 3.7rem;
+  padding-left: 9.7rem;
+  width: 90%;
+}
+
+.pop-text-1 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding-bottom: 3.2rem;
+}
+
+.pop-text-2 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #757575;
+  font-weight: 0;
+  padding-bottom: 4.6rem;
+  line-height: 2.3rem;
+}
+
+.grid-last {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 120rem;
+}
+
+.container-last {
+  padding: 10rem;
+}
+
+.nav-last {
+  max-width: 50%;
+}
+
+.nav-last-1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  padding-bottom: 3.2rem;
+  color: #333;
+}
+
+.link-last:link,
+.link-last:visited {
+  text-decoration: none;
+  padding-bottom: 1.2rem;
+  display: inline-block;
+  font-size: 1.4rem;
+  transition: all 0.4s;
+  color: #757575;
+}
+
+.link-last:hover,
+.link-last:active {
+  color: #6cbb23;
+}
+
+.li-s {
+  list-style: none;
+}
+
+.m-last {
+  font-size: 1.6rem;
+  color: #757575;
+  padding-bottom: 1.2rem;
+  line-height: 2rem;
+}
+
+.text-last {
+  width: 35%;
+}
+
+.footer {
+  border-top: 1px solid #dcdadaa2;
+
+  padding: 10rem;
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+.footer-text {
+  font-size: 1.4rem;
+  color: #8c8c8c;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+  animation-fill-mode: forwards;
+}
+
+.value-2 {
+  animation: counter 5s infinite alternate ease-in-out;
+  counter-reset: num var(--num);
+  animation-iteration-count: 1;
+}
+
+.value-2::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 1;
+  }
+  to {
+    --num: 30;
+  }
+}
